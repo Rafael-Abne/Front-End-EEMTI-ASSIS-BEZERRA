@@ -94,6 +94,11 @@
   background-color: rgb(247, 242, 242);
  
 }
+
+.materiais{
+  padding: 20px;
+  text-align: center;
+}
 .container img.corona-virus{
   padding: 20px 150px;
   width: 100%;
@@ -262,8 +267,7 @@
        flex-direction: column;
      }
 
-     .container .atividade iframe,
-     .container .atividades embed{
+     .container .atividade iframe {
        width: 100%;
      }
 
