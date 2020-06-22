@@ -32,7 +32,6 @@
 }
 
 .container .materiais,
-.container
  .container .series,
   .container .projetos{
     display: flex;
@@ -314,7 +313,7 @@
      .container .atividade iframe {
        width: 100%;
      }
-     
+
      .dropdown .dropbtn,
      .topnav.responsive a,
      .dropdown-content a{
