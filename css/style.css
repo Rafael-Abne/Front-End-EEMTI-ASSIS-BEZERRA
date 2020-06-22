@@ -236,6 +236,7 @@
   color: white;
 }
 
+
 .dropdown-content a:hover {
   color: #e0b519;
 
@@ -278,7 +279,6 @@
 
   @media only screen and (max-width: 768px) {
      .container .materiais, 
-     .container .materiais-oregen, 
      .container .projetos,
      .container .series{
        display: flex;
@@ -312,6 +312,16 @@
      }
 
      .container .atividade iframe {
+       width: 100%;
+     }
+     
+     .dropdown .dropbtn,
+     .topnav.responsive a,
+     .dropdown-content a{
+       color: #fff;
+       background-color: rgba(33,33,33,1);
+     }
+     #myTopnav{
        width: 100%;
      }
 
