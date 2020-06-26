@@ -12,6 +12,10 @@
    
 }
 
+.logo-assis{
+  cursor: pointer;
+}
+
 .container .header{
    padding: 5px;
    background-image: url(../img/banner-3.png);
@@ -21,7 +25,7 @@
 }
 
 .container img.img-sub-header{
-  height: 280px;
+  height: 300 px;
 }
 
 .container img.escola-online{
@@ -37,6 +41,15 @@
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+
+.container .crede-12{
+  padding: 10px;
+  display: flex;
+}
+
+.container .crede-12 a > img{
+  height: 200px;
 }
 
 .container .materia{
@@ -96,6 +109,10 @@
   padding: 0px 20px;
 }
 
+.container .crede-12 a > img{
+  width: 100%;
+}
+
 .container .projetos a > img{
    width: 400px;
 }
@@ -109,6 +126,23 @@
   padding: 20px;
   text-align: center;
 }
+.materiais a{
+  width: 100%;
+}
+
+.crede-12{
+  display: flex;
+  justify-content: space-between;
+}
+
+.materiais a img{
+  height: 200px;
+}
+
+.crede-12 a img{
+  height: 300px;
+  width: 50px;
+}
 
 .materiais-oregen{
   background-color: rgba(251,130,33,1);
@@ -118,7 +152,7 @@
 .container img.corona-virus{
   padding: 20px 150px;
   width: 100%;
-  height: 90px;
+  height: 100px;
 }
 
 .container .class-button{
@@ -282,10 +316,16 @@
      .container .series{
        display: flex;
        flex-direction: column;
+       padding: 0;
      }
      .container .projetos a > img{
        width: 100%;
+       margin-top: 10px;
      }
+     .container .materiais a > img{
+      width: 100%;
+      height: 200px;
+    }
      .container .series a{
        margin-top: 20px;
      }
@@ -299,6 +339,7 @@
 
      .container img.corona-virus{
        padding: 20px;
+       height: 60px;
      }
 
      .container .materia h3,
@@ -322,6 +363,17 @@
      }
      #myTopnav{
        width: 100%;
+     }
+     .crede-12{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     .crede-12 a > img{
+       height: 160px;
+       width: 230px !important;
+       margin-top: 20px;
+       background-size: cover;
      }
 
   }

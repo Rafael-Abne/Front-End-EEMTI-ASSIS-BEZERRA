@@ -13,10 +13,9 @@
   <div class="container">
     <div class="header">
       <div class="sub-header">
-        <img src="img/logo.png">
-        <h2>EEMTI Assis Bezerra</h2>
+        <img class="logo-assis" src="img/logo.png" onclick="window.location='index.html' ">
+       <h2 onclick="window.location='index.html' " style="cursor:pointer">EEMTI Assis Bezerra</h2>
         <div class="topnav" id="myTopnav">
-          <a href="#inicio" class="active">Início</a>
           <div class="dropdown">
             <div class="dropbtn">1ª SÉRIE
               <i class="fa fa-caret-down"></i>
@@ -110,38 +109,43 @@
               <a href="pages/documentarios.html">QUEM SOMOS</a>
             </div>
           </div>
-          
+          <a href="https://aluno.seduc.ce.gov.br/">Aluno Online</a>
+
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
       </div>
-    </div>    
+    </div>
 
-    <img class="img-sub-header" src="img/banner-header.jpg">
+    <img class="img-sub-header" src="img/assis.jpeg">
     <h2>Para acessar os arquivos de sua série, clique abaixo:</h2>
     <section class="content">
       <div class="series">
-        <a href=""><img src="img/serie1.jpg"></a>
-        <a href=""><img src="img/serie2.jpg"></a>
-        <a href=""><img src="img/serie3.jpg"></a>
+        <a href="pages/1serie.html"><img src="img/serie1.jpg"></a>
+        <a href="pages/2serie.html"><img src="img/serie2.jpg"></a>
+        <a href="pages/3serie.html"><img src="img/serie3.jpg"></a>
       </div>
     </section><br>
-    <img class="escola-online" src="img/online.jpg"><br>
     <section class="content">
       <div class="materiais">
-        <a href=""><img src="img/biblioteca.jpg"></a>
-        <a href=""><img src="img/enem.jpg"></a>
+        <a href="pages/biblioteca-virtual.html"><img src="img/biblioteca-virtual.png"></a>
+        <a href="pages/enem.html"><img src="img/enem.png"></a>
       </div>
       <div class="materiais">
-        <a href=""><img src="img/eletivas.jpg"></a>
-        <a href=""><img src="img/material-estudo.jpg"></a>
+        <a href="pages/eletivas.html"><img src="img/eletivas.jpg"></a>
+        <a href="pages/material_estruturado.html"><img src="img/material-estudo.jpg"></a>
       </div>
       <div class="projetos">
-        <a href=""><img src="img/nucleo-trabalho.jpg"></a>
-        <a href=""><img src="img/pptd.jpg"></a>
+        <a href="pages/ntpps.html"><img src="img/nucleo-trabalho.jpg"></a>
+        <a href="pages/ppdt.html"><img src="img/pptd.jpg"></a>
       </div>
     </section>
     <a href="https://coronavirus.ceara.gov.br/"><img class="corona-virus" src="img/corona.png"></a>
-    <a href="https://crede02.seduc.ce.gov.br/"><img class="img-footer" src="img/jovem-futuro.png"></a>
+      <div class="crede-12">
+        <a target="_blank" href="https://crede02.seduc.ce.gov.br/"><img src="img/brasao.png"></a>
+        <a target="_blank" href="https://crede02.seduc.ce.gov.br/"><img src="img/jovem-de-futuro.png"></a>
+        <a target="_blank" href="https://crede02.seduc.ce.gov.br/"><img src="img/foco.png" style="width: 300px"></a>
+        <a target="_blank" href="https://crede02.seduc.ce.gov.br/"><img src="img/crede-12.jpg"></a>
+      </div>
     <div class="footer">
       <b>E.E.M.T.I. ASSIS BEZERRA </b>
       <p>S/N, Praça da Matriz - Centro, Quixeramobim - CE, 63800-000</p>
@@ -153,7 +157,6 @@
 </body>
 
 <!-- script do menu responsivo -->
-
 <script>
   function myFunction() {
     var x = document.getElementById("myTopnav");
