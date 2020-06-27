@@ -238,7 +238,7 @@
   border: none;
   outline: none;
   color: rgb(43, 38, 38);
-  padding: 14px 16px;
+  padding: 14px 6px;
   margin: 0;
   cursor: pointer;
 }
@@ -316,7 +316,13 @@
      .container .series{
        display: flex;
        flex-direction: column;
-       padding: 0;
+      
+     }
+     .container .header{
+       padding: 0px;
+     }
+     .container .header .sub-header{
+       display: block;
      }
      .container .projetos a > img{
        width: 100%;
@@ -374,6 +380,14 @@
        width: 230px !important;
        margin-top: 20px;
        background-size: cover;
+     }
+     .container .header .sub-header h2{
+       margin-top: -65px;
+       margin-left: 30px;
+     }
+     a.icon{
+       background-color: #555;
+       color: #fff;
      }
 
   }
